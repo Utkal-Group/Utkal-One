@@ -1,0 +1,5 @@
+export {default as design1} from "./project-ft-01.jpg"
+export {default as design2} from "./project-ft-04.jpg"
+export {default as design3} from "./project-ft-05.jpg"
+export {default as design4} from "./project-ft-09.jpg"
+export {default as design5} from "./project-ft-10.jpg"
