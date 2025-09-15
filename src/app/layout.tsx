@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   title: "UtkalOne Pvt. Ltd. | Infrastructure & Interior Solutions",
   description:
     "UtkalOne Pvt. Ltd. is a trusted infrastructure development company specializing in building, road, drain, and dam construction. We also provide modern interior design solutions for homes and offices. Backed by expert engineers, architects, and designers, we deliver projects with safety, sustainability, and aesthetics at the core.",
+     icons: "/utkalone.png",
   keywords: [
     "UtkalOne Pvt. Ltd.",
     "infrastructure development",
@@ -44,14 +45,7 @@ export const metadata: Metadata = {
     siteName: "UtkalOne Pvt. Ltd.",
     locale: "en_IN",
     type: "website",
-        images: [
-      {
-        url: "/assets/subnavbar/utkalone.png", // replace with your logo URL
-        width: 600,
-        height: 600,
-        alt: "UtkalOne Pvt. Ltd. Logo",
-      },
-    ],
+    
   },
   twitter: {
     card: "summary_large_image",
