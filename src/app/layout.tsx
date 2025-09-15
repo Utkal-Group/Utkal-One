@@ -18,9 +18,42 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "utkalone.in",
-  description: "Powered by UtkalOne",
+  title: "UtkalOne Pvt. Ltd. | Infrastructure & Interior Solutions",
+  description:
+    "UtkalOne Pvt. Ltd. is a trusted infrastructure development company specializing in building, road, drain, and dam construction. We also provide modern interior design solutions for homes and offices. Backed by expert engineers, architects, and designers, we deliver projects with safety, sustainability, and aesthetics at the core.",
+  keywords: [
+    "UtkalOne Pvt. Ltd.",
+    "infrastructure development",
+    "building construction",
+    "road construction",
+    "drain construction",
+    "dam construction",
+    "interior design",
+    "home interiors",
+    "office interiors",
+    "architectural services",
+    "engineering solutions",
+    "construction company in Odisha",
+  ],
+  authors: [{ name: "UtkalOne Pvt. Ltd." }],
+  openGraph: {
+    title: "UtkalOne Pvt. Ltd. | Infrastructure & Interior Solutions",
+    description:
+      "Leading construction and interior design company delivering high-quality projects in building, road, drain, dam, and interiors with safety, sustainability, and innovation.",
+    url: "https://www.utkalone.com", // replace with your actual domain
+    siteName: "UtkalOne Pvt. Ltd.",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "UtkalOne Pvt. Ltd. | Infrastructure & Interior Solutions",
+    description:
+      "Expertise in building, road, drain, dam construction, and modern interiors for homes & offices.",
+    creator: "@utkalone", // replace with your actual Twitter handle
+  },
 };
+
 
 export default function RootLayout({
   children,
