@@ -40,10 +40,18 @@ export const metadata: Metadata = {
     title: "UtkalOne Pvt. Ltd. | Infrastructure & Interior Solutions",
     description:
       "Leading construction and interior design company delivering high-quality projects in building, road, drain, dam, and interiors with safety, sustainability, and innovation.",
-    url: "https://www.utkalone.com", // replace with your actual domain
+    url: "https://www.utkalone.in", // replace with your actual domain
     siteName: "UtkalOne Pvt. Ltd.",
     locale: "en_IN",
     type: "website",
+        images: [
+      {
+        url: "/assets/subnavbar/utkalone.png", // replace with your logo URL
+        width: 600,
+        height: 600,
+        alt: "UtkalOne Pvt. Ltd. Logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
